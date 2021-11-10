@@ -168,7 +168,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: {x: 10, y: 10}
   startPos: 0
-  room: {fileID: 6603898176611029568, guid: f57194639f9c9ab44bf742e64c5bd300, type: 3}
+  rooms:
+  - room: {fileID: 8660804230565696935, guid: 2bdce698ab01a104fa2d19a7561c3d4f, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 4, y: 4}
+    obligatory: 0
+  - room: {fileID: 8660804230565696935, guid: 5bfa0509e9ff44e479d514cef0b33de5, type: 3}
+    minPosition: {x: 0, y: 0}
+    maxPosition: {x: 0, y: 0}
+    obligatory: 1
+  - room: {fileID: 8660804230565696935, guid: 2bc9aaac9c65a3b4dbad070a844d9bb9, type: 3}
+    minPosition: {x: 4, y: 4}
+    maxPosition: {x: 7, y: 7}
+    obligatory: 0
+  - room: {fileID: 8660804230565696935, guid: d0af86852d40dd24ebbfb8aa72373906, type: 3}
+    minPosition: {x: 7, y: 7}
+    maxPosition: {x: 10, y: 10}
+    obligatory: 0
   offset: {x: 6, y: 6}
 --- !u!1 &705507993
 GameObject:
